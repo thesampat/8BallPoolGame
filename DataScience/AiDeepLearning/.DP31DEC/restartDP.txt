@@ -1,0 +1,4 @@
+SO i will restart my DP learing journer from scratch
+expected time
+last end = At encoder and decoder nlp
+start from nn as data
