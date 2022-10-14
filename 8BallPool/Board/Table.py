@@ -1,6 +1,6 @@
 # attributes for moving Table
-Tb_Width = 300 #740
-Tb_Height =250 #340
+Tb_Width = 740
+Tb_Height =340 #250
 Tb_PosX = 25
 Tb_PosY = 25
 

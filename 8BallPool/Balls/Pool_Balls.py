@@ -1,7 +1,7 @@
 # Creating Balls
 import Board.Table as BT
 
-No_of_Balls = 1
+No_of_Balls = 6
 Size_of_Ball = 20
 ballX = []
 ballY = []
@@ -16,35 +16,35 @@ def ball_pos():
     ballX.append(dis_x+150)
     ballX.append(dis_x+380)
     ballX.append(dis_x+150)
-    # ballX.append(dis_x+280)
-    # ballX.append(dis_x+540)
-    # ballX.append(dis_x+540)
+    ballX.append(dis_x+280)
+    ballX.append(dis_x+540)
+    ballX.append(dis_x+540)
 
     ballY.append(dis_Y+200)
     ballY.append(dis_Y+152)
     ballY.append(dis_Y+145)
-    # ballY.append(dis_Y+160)
-    # ballY.append(dis_Y+150)
-    # ballY.append(dis_Y+130)
+    ballY.append(dis_Y+160)
+    ballY.append(dis_Y+150)
+    ballY.append(dis_Y+130)
 
     # color_of_balls
     ball_color.append('Red')
     ball_color.append('yellow')
     ball_color.append('black')
-    # ball_color.append('green')
-    # ball_color.append('orange')
-    # ball_color.append('purple')
+    ball_color.append('green')
+    ball_color.append('orange')
+    ball_color.append('purple')
     # ball_color.append('cyan')
     # ball_color.append('white')
     # ball_color.append('pink')
     # ball_color.append('grey')
 
-    # for balls in range(No_of_Balls):
-    #     ballX.append(dis_x)
-    #     ballY.append(dis_Y)
-    #     dis_x += 400
+    for balls in range(No_of_Balls):
+        ballX.append(dis_x)
+        ballY.append(dis_Y)
+        dis_x += 400
 
-    #     dis_Y += 1
+        dis_Y += 1
 
 
 def create_balls(canvas):
